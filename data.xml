@@ -3,13 +3,41 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
 <key id="name" for="node" attr.name="name" attr.type="string"/>
-<key id="film" for="edge" attr.name="name" attr.type="string"/>
+<!-- <key id="name" for="edge" attr.name="name" attr.type="string"/> -->
   <graph id="G" edgedefault="undirected">
     <node id="actor1"><data key="name">Steve Martin</data></node>
     <node id="actor2"><data key="name">Martin Short</data></node>
     <node id="actor3"><data key="name">Diane Keaton</data></node>
+    <node id="actor4"><data key="name">Michael Caine</data></node>
+    <node id="actor5"><data key="name">Christopher Guest</data></node>
+    <node id="actor6"><data key="name">Parker Posey</data></node>
+    <node id="actor7"><data key="name">Eugene Levy</data></node>
+
+    <node id="film1"><data key="name">Best In Show</data></node>
+    <node id="film2"><data key="name">Three Amigos</data></node>
+    <node id="film3"><data key="name">Dirty Rotten Scoundrels</data></node>
+    <node id="film4"><data key="name">Father of the Bride</data></node>
+    
+    <edge id="af1" source="actor7" target="film1"/>
+    <edge id="af2" source="actor1" target="film2"/>
+    <edge id="af3" source="actor2" target="film2"/>
+    <edge id="af4" source="actor4" target="film3"/>
+    <edge id="af5" source="actor1" target="film3"/>
+    <edge id="af6" source="actor1" target="film4"/>
+    <edge id="af7" source="actor2" target="film4"/>
+    <edge id="af8" source="actor3" target="film4"/>
+    <edge id="af9" source="actor5" target="film1"/>
+    <edge id="af10" source="actor6" target="film1"/>
+    <edge id="af11" source="actor5" target="film1"/>
+<!--
     <edge id="film1" source="actor1" target="actor2"><data key="film">Three Amigos</data></edge>
     <edge id="film2" source="actor2" target="actor3"><data key="film">Father of the Bride</data></edge>
+    <edge id="film2" source="actor1" target="actor3"><data key="film">Father of the Bride</data></edge>
+    <edge id="film3" source="actor1" target="actor4"><data key="film">Dirty Rotten Scoundrels</data></edge>
+    <edge id="film4" source="actor5" target="actor6"><data key="film">Best In Show</data></edge>
+    <edge id="film5" source="actor6" target="actor7"><data key="film">Best In Show</data></edge>
+    <edge id="film5" source="actor6" target="actor7"><data key="film">Best In Show</data></edge>
+-->
   </graph>
 </graphml>
 
