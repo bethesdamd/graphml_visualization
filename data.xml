@@ -2,10 +2,14 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="film" for="edge" attr.name="name" attr.type="string"/>
   <graph id="G" edgedefault="undirected">
-    <node id="n0"/>
-    <node id="n1"/>
-    <edge id="e1" source="n0" target="n1"/>
+    <node id="actor1"><data key="name">Steve Martin</data></node>
+    <node id="actor2"><data key="name">Martin Short</data></node>
+    <node id="actor3"><data key="name">Diane Keaton</data></node>
+    <edge id="film1" source="actor1" target="actor2"><data key="film">Three Amigos</data></edge>
+    <edge id="film2" source="actor2" target="actor3"><data key="film">Father of the Bride</data></edge>
   </graph>
 </graphml>
 
