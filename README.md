@@ -1,1 +1,11 @@
-# graphml_visualization
+# Graph visualization with Python NetworkX Library
+Demonstrates several things related to graph processing:
+
+- Python NetworkX to do the graph processing
+- GraphML to store the graph
+- matplotlib to render the graph
+- iPython Notebooks to show the work
+
+The dataset is small but shows an intuitive set of associations between actors and films.  Note that NetworkX has a rich set of features but we're only showing a few here.  Explore the NetworkX API for more insights.  This code is just meant to get the reader started with a few basics.
+
+ 
